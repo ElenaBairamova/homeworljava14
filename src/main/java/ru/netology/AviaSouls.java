@@ -31,8 +31,9 @@ public class AviaSouls {
                     result = addToArray(result, ticket);
                 }
             }
-            Arrays.sort(result);
+
         }
+        Arrays.sort(result);
         return result;
     }
 
@@ -44,8 +45,8 @@ public class AviaSouls {
                     result = addToArray(result, ticket);
                 }
             }
-            Arrays.sort(result, comparator);
         }
+        Arrays.sort(result, comparator);
 
         return result;
     }
